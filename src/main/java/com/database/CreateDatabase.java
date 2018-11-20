@@ -18,7 +18,9 @@ import org.rocksdb.Options;
 import org.rocksdb.RocksIterator;
 
 /**
- *
+ * 
+ * Creates databases with RocksDB for genotyping data from MoBa.
+ * 
  * @author Christoffer Hjeltnes Støle
  */
 public class CreateDatabase {
@@ -34,8 +36,6 @@ public class CreateDatabase {
             System.out.println(e);
         }        
     }
-    
-    
     
     public void CreateSummaryStatisticsDatabase() {
         AgeUtils ageUtils = new AgeUtils();
